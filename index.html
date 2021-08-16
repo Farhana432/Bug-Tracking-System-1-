@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>  Bug Tracking System   </title>
+            <link rel="stylesheet" href="css/style.css">
+        <style>
+            .main{
+                background-image: url("image2/background3.jpg");
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="logo">
+                   <img src="image2/bug-logo3.png"height="60"width="10">
+                   
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="Home.html"class="navdesign">HOME</a></li>
+                        <li><a href="About us.html"class="navdesign">ABOUT US</a></li>
+                        
+                        <li><a href="Contact us.html"class="navdesign">CONTACT US</a></li>
+                        <li><a href="signup.php" class="navdesign">SIGN UP</a></li>
+
+                        <li>
+                            <div class="dropdown-containar">
+                               
+                                <a href="login.html" class="logindesign">Login</a>
+                                <div class="dropdown-content">
+                                  <a href="Manager.html">Manager</a>
+                                  <a href="Testerpage.html">Tester</a>
+                                  <a href="Developerpage.html">Developer</a>
+                                </div>
+                              </div>
+                            </li>
+                         
+                    </ul>
+                </div>
+            
+            </nav>
+            
+
+
+
+
+
+
+            <div class="information">
+                <div class="overlay">
+
+                </div>
+                <img src="image2/apple-iphone.jpg" class="mobile">
+                <div id="circle">
+                    <div class="feature one">
+                       
+                        <div>
+                            <h1>Bug Tracking System</h1>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        
+                        <div>
+                            <h1>Bug Tracking System</h1>
+                            
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        
+                        <div>
+                            <h1>Bug Tracking System</h1>
+                           
+                        </div>
+                    </div>
+                    <div class="feature four">
+                       
+                        <div>
+                            <h1>Bug Tracking System</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="controls">
+                <img src="image2/arrow-top-512.png" id="upbtn">
+                <h3>Website</h3>
+            <img src="image2/arrow-top-512.png" id="downbtn">
+                
+            </div>
+        </div>
+        <script>
+            var circle= document.getElementById("circle");
+            var upbtn= document.getElementById("upbtn");
+            var downbtn= document.getElementById("downbtn");
+            var rotateValue = circle.style.transform;
+            var rotateSum;
+
+            
+            
+            upbtn.onclick= function(){
+
+
+                rotateSum = rotateValue + "rotate(-90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            
+            
+            }
+             downbtn.onclick= function(){
+
+
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+             rotateValue = rotateSum;
+
+
+            }
+            
+            
+            </script>
+        
+        </body>
+
+
+
+</html>

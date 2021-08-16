@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  
+  background-size: cover;
+ 
+}
+nav{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  flex-basis: 20%;
+  left: 30%;
+  
+ 
+}
+.logo img{
+  width: 150px;
+
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+  background-color: #fff;
+  height: 60px;
+  margin-top: 30px;
+  font-weight: bold;
+
+  
+
+
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 23px;
+  
+  
+}
+.nav-links ul li a{
+  color: rgb(160, 21, 137);
+  text-decoration: none;
+  cursor: pointer;
+}
+.navdesign{
+ 
+  padding-top: 23px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 19px;
+
+}
+.navdesign:hover{
+  background-color: rgb(202, 113, 183);
+  
+}
+
+
+.information{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 63%;
+  left: -10%;
+  transform: translateY(-50%);
+ 
+
+}
+#circle{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50% ;
+  transition: 1s;
+  transform: rotate(0deg);
+}
+.feature{
+  position: absolute;
+  display: flex;
+  color: #fff;
+
+}
+.feature div{
+  margin-left: 7px;
+}
+.feature div p{
+  margin-top: 6px;
+}
+.feature img{
+  width: 41px;
+}
+.one{
+  top: 380px;
+  right: -75px;
+ 
+ 
+}
+.two{
+  top: 80px;
+  left: 225px;
+  transform: rotate(-90deg);
+}
+.three{
+  bottom: 380px;
+  left: -80px;
+  transform: rotate(-180deg);
+
+}
+.four{
+  bottom: 75px;
+  right: 227px;
+  transform: rotate(-270deg);
+}
+.mobile{
+  width: 220px;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  transform: translateY(0%);
+  z-index: 1;
+}
+.controls{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.controls h3{
+  margin: 15px;
+  color: #fff;
+}
+#upbtn{
+  width: 15px;
+  cursor: pointer;
+}
+#downbtn{
+  width: 15px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.overlay{
+  width: 0;
+  height: 0;
+  border-top: 400px solid #fff ;
+  border-right: 430px solid transparent;
+  border-bottom: 400px solid #fff ;
+  border-left: 400px solid #fff ;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*Index page end*/
+
+/*Home page start*/
+
+.homepage{
+  background-color: rgb(235, 188, 223);
+}
+.container{
+  height: 700px;
+  width: 1200px;
+  margin-left: 160px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 22px gray;
+  background-color: rgb(123, 165, 151);
+}
+
+.ownpic{
+
+  height: 350px;
+  width: 400px;
+  border-top-left-radius: 10px;
+  
+  background-image: url("/image2/bug_bounty_more.jpg");
+  background-size: 550px 500px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+ 
+}
+.home2body{
+  background-color:rgb(248, 242, 242);
+  height: 700px;
+  width: 800px;
+  float: left;
+  margin-left: 400px;
+  margin-top: -700px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+ 
+  
+ 
+ 
+  
+}
+
+.about{
+  margin-right: 75px;
+  
+}
+
+
+
+
+/*login page*/
+
+
+
+.login{
+  margin-top: 100px;
+  height: 550px;
+  width: 450px;
+  background-color: rgba(209, 199, 199, 0.3);
+  margin-left: 539px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(32, 32, 32, 0.3);
+  box-shadow: 2px 2px 15px rgba(7, 7, 7, 0.3);
+  color: #fff;
+}
+
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+form#login {
+  margin: 20px;
+}
+label {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+input#name {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit {
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(250, 100, 0, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+label,
+span,
+h2 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/*dropdown start*/
+
+
+.dropdown-containar{
+  display: inline;
+  position: relative;
+  margin-left: 15px;
+  border: black solid 2px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 9px;
+  
+}
+.dropdown-containar:hover{
+  background-color: rgb(202, 68, 173);
+  
+  cursor: pointer;
+ 
+ }
+ 
+
+.dropdown-content{
+position: absolute;
+top: 45px;
+
+left: 0px ;
+text-align: left;
+min-width: 94px;
+
+display: none;
+background-color: #fff;
+}
+.dropdown-content a{
+  display: block;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 13.5px;
+  padding-bottom: 10px;
+ 
+
+
+}
+.dropdown-content a:hover{
+  
+  background-color: rgb(202, 68, 173);
+   cursor: pointer;
+  
+}
+.dropdown-containar:hover .dropdown-content{
+  display: block;
+  cursor: pointer;
+ 
+}
+/*dropdown end*/
+
+
+
+/*Manager start*/
+.manager-body{
+  background-color: rgb(197, 127, 182);
+  
+
+}
+.manager-main{
+  height: 700px;
+  width: 1100px;
+  background-color: rgb(201, 224, 224);
+  margin-left: 225px;
+  
+}
+.manager h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-color: rgb(206, 7, 179);
+  text-align: left;
+  color: #fff;
+  
+}
+.manager h1:hover{
+   color: rgb(236, 140, 223); 
+}
+
+.manager-menu a{
+display: block;
+text-decoration: none;
+
+}
+.menudesign{
+  margin-top: 18px;
+  padding-top: 13px;
+  padding-left: 37px;
+  padding-right: 570px;
+  padding-bottom: 13px;
+  width: 200px;
+  
+  background-color: rgb(201, 13, 176);
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+
+.nav-manager{
+  flex: 1;
+  text-align: left;
+  background-color: #fff;
+ 
+  margin-top: 10px;
+  width: 800px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+.nav-manager ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav-manager ul li a{
+  color: rgb(160, 21, 137);
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-manager ul li a:hover{
+  color: rgb(223, 106, 203);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.navmdesign{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 19px;
+  padding-bottom: 33px;
+}
+
+/*Manager end*/
+
+/*Contact-us start*/
+
+.Contact-body{
+ background-color:  rgb(206, 123, 188);
+}
+.Contact-main{
+  height: 700px;
+  width: 770px;
+  background-color: rgb(201, 224, 224);
+  margin-left: 375px;
+  margin-top: 0px;
+ 
+}
+.contacth2{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  background-color: rgb(214, 39, 191);
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  
+}
+.contacth2 h2:hover{
+  color: rgb(236, 140, 223); 
+}
+
+.contacth3{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 500px;
+  background-color: rgb(211, 236, 236);
+  box-shadow: rgb(48, 45, 45);
+  text-align: right;
+  color: #fff;
+  font-size: 15px;
+}
+.Contact-content{
+  margin-top: 15px;
+  margin-left: 25px;
+  
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  color: rgb(126, 11, 97);
+  margin-right: 15px;
+}
+input#Contact-name {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit {
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(250, 100, 0, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+input#reset {
+  width: 130px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(158, 90, 45, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+
+}
+label,
+span,
+h2 {
+  text-shadow: 1px 1px 5px rgba(226, 168, 168, 0.3);
+}
+
+
+
+/*About us start*/
+
+
+.About-body{
+  background-color:  rgb(206, 123, 188);
+}
+.About-main{
+  height: 1000px;
+  width: 800px;
+  background-color: rgb(201, 224, 224);
+  margin-left: 359px;
+  margin-top: 0px;
+  background-image: url("/image2/Bug+tracking.png");
+  
+  background-repeat: no-repeat;
+  background-size: 280px 238px;
+  
+
+  background-position: right 168px;
+}
+.Abouth1{
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 20px;
+  
+  background-color: rgb(214, 39, 191);
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  
+}
+.Abouth1 h1:hover{
+  color: rgb(236, 140, 223); 
+}
+
+.Aboutp{
+  height: 700px;
+  width: 780px;
+ 
+  box-shadow: rgb(48, 45, 45);
+  text-decoration:none;
+ 
+  color: black;
+  margin-top: 30px;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-left: 20px;
+  
+  
+  
+}
+
+
+/*Tester start*/
+.tester-body{
+  background-color: rgb(197, 127, 182);
+  
+
+}
+.tester-main{
+  height: 700px;
+  width: 1100px;
+  background-color: rgb(138, 155, 155);
+  margin-left: 225px;
+  
+}
+.tester h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-color: rgb(206, 7, 179);
+  text-align: left;
+  color: #fff;
+  
+}
+.tester h1:hover{
+   color: rgb(236, 140, 223); 
+}
+
+.tester-menu a{
+display: block;
+text-decoration: none;
+
+}
+.menutdesign{
+  margin-top: 18px;
+  padding-top: 13px;
+  padding-left: 37px;
+  padding-right: 570px;
+  padding-bottom: 13px;
+  width: 200px;
+  
+  background-color: rgb(67, 111, 206);
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+
+.nav-tester{
+  flex: 1;
+  text-align: left;
+  background-color: #fff;
+ 
+  margin-top: 10px;
+  width: 800px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+.nav-tester ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav-tester ul li a{
+  color: rgb(160, 21, 137);
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-tester ul li a:hover{
+  color: rgb(223, 106, 203);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.navtdesign{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 19px;
+  padding-bottom: 33px;
+}
+
+/*tester end*/
+
+/*Developer start*/
+
+.developer-body{
+  background-color: rgb(197, 127, 182);
+  
+
+}
+.developer-main{
+  height: 700px;
+  width: 1100px;
+  background-color: rgb(190, 160, 204);
+  margin-left: 225px;
+  
+}
+.developer h1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-color: rgb(206, 7, 179);
+  text-align: left;
+  color: #fff;
+  
+}
+.developer h1:hover{
+   color: rgb(236, 140, 223); 
+}
+
+.developer-menu a{
+display: block;
+text-decoration: none;
+
+}
+.menuddesign{
+  margin-top: 18px;
+  padding-top: 13px;
+  padding-left: 37px;
+  padding-right: 570px;
+  padding-bottom: 13px;
+  width: 200px;
+  
+  background-color: rgb(65, 158, 70);
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+
+.nav-developer{
+  flex: 1;
+  text-align: left;
+  background-color: #fff;
+ 
+  margin-top: 10px;
+  width: 800px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.nav-developer ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav-developer ul li a{
+  color: rgb(160, 21, 137);
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-developer ul li a:hover{
+  color: rgb(223, 106, 203);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.navddesign{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 19px;
+  padding-bottom: 33px;
+}
+
+/*developer end*/
